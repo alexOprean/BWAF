@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>BWAF_Business</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BWAF-Core\BWAF-Core.csproj" />
+    <ProjectReference Include="..\BWAF-DAL\BWAF-DAL.csproj" />
+  </ItemGroup>
+
+</Project>
