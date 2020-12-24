@@ -29,7 +29,7 @@
         }
 
         [HttpGet]
-        [Route("getAll")]
+        [Route("get/all")]
         public async Task<IActionResult> GetAll()
         {
             IEnumerable<Entity> entities =  await crudServices.GetAll();
@@ -46,9 +46,9 @@
 
         [HttpDelete]
         [Route("delete")]
-        public async Task<IActionResult> DeleteEntity([FromBody] EntityViewModel entityViewModel)
+        public async Task<IActionResult> DeleteEntity([FromQuery] long id)
         {
-            await crudServices.Delete(entityViewModel);
+            await crudServices.Delete(id);
             return Ok();
         }
     }

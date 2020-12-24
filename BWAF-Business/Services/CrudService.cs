@@ -28,11 +28,11 @@
             await repository.SaveAsync();
         }
 
-        public async Task Delete(EntityViewModel entityViewModel)
+        public async Task Delete(long id)
         {
             IRepository repository = await repositoryService.GetRepositoryAsync();
 
-            repository.Delete<Entity>(entityViewModel.Id);
+            repository.Delete<Entity>(id);
             await repository.SaveAsync();
         }
 

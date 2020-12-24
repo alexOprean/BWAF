@@ -12,6 +12,7 @@
     {
         public static void Init(IServiceCollection services)
         {
+            services.AddHealthChecks();
             services.AddScoped<PerformanceFilter>();
             services.AddScoped<IRepositoryService, RepositoryService>();
             services.AddScoped<ICrudServices, CrudService>();

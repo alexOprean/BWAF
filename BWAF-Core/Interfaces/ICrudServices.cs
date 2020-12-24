@@ -9,7 +9,7 @@
     {
         Task<IEnumerable<Entity>> GetAll();
 
-        Task Delete(EntityViewModel entityViewModel);
+        Task Delete(long id);
 
         Task Update(EntityViewModel entityViewModel);
 
