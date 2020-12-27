@@ -1,4 +1,4 @@
-Representation,OldName,NewName
+Configuration name,Old name, New name
 API Name,BWAF-API,BWAF.Api
 API Namespace,BWAF_API,BWAF.Api
 Core Name,BWAF-Core,BWAF.Core
@@ -9,4 +9,4 @@ Data Access Layer Name,BWAF-DAL,BWAF.Data
 Data Access Layer Namespace,BWAF_DAL,BWAF.Data
 Integration Name,BWAF-IntegrationTest,BWAF.Test
 Integration Namespace,BWAF_IntegrationTest,BWAF.Test
-ProjectName,BWAF,BWAF
+Project Name,BWAF,BWAF
