@@ -9,4 +9,4 @@ Data Access Layer Name,BWAF-DAL,BWAF.Data
 Data Access Layer Namespace,BWAF_DAL,BWAF.Data
 Integration Name,BWAF-IntegrationTest,BWAF.Test
 Integration Namespace,BWAF_IntegrationTest,BWAF.Test
-Project Name,BWAF,BWAF
+ProjectName,BWAF,BWAF
